@@ -51,3 +51,30 @@ input[type="text"], select {
 	margin-top: 20px;
 	font-size: 1.2rem;
 }
+@media only screen and (max-width: 600px) {
+	.container {
+		padding: 10px;
+	}
+
+	h1 {
+		font-size: 24px;
+	}
+
+	.input-group label {
+		font-size: 16px;
+	}
+
+	.input-group select,
+	.input-group input[type="number"] {
+		font-size: 14px;
+	}
+
+	.calculate-btn {
+		font-size: 16px;
+		padding: 8px 16px;
+	}
+
+	.result {
+		font-size: 16px;
+	}
+}
