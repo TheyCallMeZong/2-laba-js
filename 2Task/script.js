@@ -31,7 +31,7 @@ function calculate() {
 	const depositAmount = document.getElementById("depositAmount").value;
 
 	if (depositType === "none" || depositTerm === "none"){
-		alert("Ты еблан")
+		alert("Вы не указали вид вклада или срок вклада")
 		return
 	}
 
